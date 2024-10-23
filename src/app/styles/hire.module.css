@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE5YMCPbcbmlMjC6ZDY0-aeMMKz1zSFpUH4A&s');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.layer {
+  position: relative;
+  border: 18px solid hsl(184, 88%, 90%);
+  padding: 5rem;
+  border-radius: 25px;
+}
+
+.input-container {
+  position: relative;
+  width: 400px;
+}
+
+.input-container i {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fffefe;
+  padding: 10px;
+  border-radius: 30px;
+  transition: all 0.3s ease-in;
+}
+
+.input-container i:hover {
+  background: #000;
+  color: white;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 12px 10px 12px 40px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background: hsl(224, 76%, 88%);
+  font-size: 16px;
+}
+
+.input-container input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.images {
+  position: absolute;
+  bottom: -50px;
+  /* Adjust this to control how much the images overflow */
+  left: 40%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  /* Adjust the gap between images */
+}
+
+.images img {
+  width: 90px;
+  height: 80px;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Add shadow to images */
+}
+
+ .hover-image {
+   transition: filter 0.3s ease;
+ }
+
+ .images:hover .hover-image {
+   filter: brightness(1.2);
+ }
+
+ .images:active .hover-image {
+   filter: brightness(1.2);
+ }
