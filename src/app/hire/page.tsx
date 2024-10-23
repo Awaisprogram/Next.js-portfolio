@@ -8,13 +8,13 @@ function HireMe() {
         <h1 className="text-5xl font-bold text-center mb-6 text-green-400">Hire Me</h1>
 
         <p className="text-lg text-gray-400 mb-4 ">
-          Looking to build an amazing website or web app? I'm a front-end developer specializing in modern web
+          Looking to build an amazing website or web app? I&apos;m a front-end developer specializing in modern web
           technologies like HTML, CSS, JavaScript, TypeScript, and React. I love creating user-friendly, responsive, and
           high-performance websites.
         </p>
 
         <p className="text-lg text-gray-400 mb-4 ">
-          I’m available for freelance projects, contract work, and full-time positions. Feel free to reach out if you
+        I&apos;m available for freelance projects, contract work, and full-time positions. Feel free to reach out if you
           need help with:
         </p>
         <ul className="list-disc list-inside mb-6 text-gray-400">

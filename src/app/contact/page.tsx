@@ -1,7 +1,6 @@
 'use client';
-import React, { useState } from 'react';
 import Heading from '../components/heading';
-import { Switch } from '@headlessui/react';
+
 
 function Contact() {
 
@@ -11,7 +10,7 @@ function Contact() {
         <Heading heading="Contact Me" />
         <div className="mx-auto  max-w-2xl text-center">
           <p className="pt-10 mt-2 text-lg leading-8 text-gray-200 ">
-          Thank you for exploring my portfolio! If you have any questions or would like to collaborate, feel free to reach out. I'm always open to new opportunities and connections.
+          Thank you for exploring my portfolio! If you have any questions or would like to collaborate, feel free to reach out. I&apos;m always open to new opportunities and connections.
           </p>
         </div>
         <form action="#" method="POST" className="rounded mx-auto mt-2 max-w-xl sm:mt-20 bg-gradient-to-r from-gray-900 to-gray-500 p-10">
@@ -132,7 +131,7 @@ function Contact() {
       type="submit"
       className="block w-full rounded-full bg-gradient-to-br from-green-300 via-green-400 to-green-700 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#77e675]"
     >
-      Let's talk
+      Lets talk
     </button>
   </div>
 </form>

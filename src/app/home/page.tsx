@@ -16,7 +16,7 @@ function Homecomponent() {
           {/* Left side content */}
           <div className="text-center md:text-left mb-8 md:mb-0">
             <h1 className="text-5xl md:text-7xl font-bold mb-2 text-white mt-8">
-              Hello, I'm
+              Hello, I&apos;m
             </h1>
             <h2 className="text-3xl md:text-5xl font-semibold  text-green-400 mb-6">
               <TypeAnimation
